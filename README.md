@@ -1,6 +1,6 @@
 # Bazinga
-#Alterar o persistence.xml e criar o banco de dados "bazinga" na máquina
-<properties></br>
+Alterar o persistence.xml e criar o banco de dados "bazinga" na máquina
+<properties>
 	<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
 	<property name="hibernate.hbm2ddl.auto" value="update"/>
 	<property name="hibernate.show_sql" value="true"/>
