@@ -1,0 +1,16 @@
+///Eclipse///
+https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-12/R/eclipse-inst-jre-win64.exe
+ou
+https://www.eclipse.org/downloads/packages/installer
+
+*Escolher a opção Eclipse IDE for Java EE Developers ou 
+Java Enterprise Edition for Web Developers*
+*O arquivo que vai baixar tem o nome: eclipse-inst-jre-win64.exe*
+
+///MYSQL Community/// 
+https://dev.mysql.com/downloads/installer/
+*O arquivo que vai baixar tem o nome: mysql-installer-web-community-8.0.27.1.msi*
+
+Passo a passo instalação MySQL->
+1. Select *server only*
+2. Choose a password valid and don't forget it
