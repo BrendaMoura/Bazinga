@@ -1,0 +1,11 @@
+///Troubleshooting///
+Java JRE 1.8: 
+https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR (Baixar isso caso apareça o erro Dynamic Web Module 3.1 requires Java 1.7 or newer)
+
+How to solve Dynamic Web Module 3.1 requires Java 1.7 or newer in Eclipse:
+https://crunchify.com/how-to-solve-dynamic-web-module-3-1-requires-java-1-7-or-newer-in-eclipse/ (Fazer esse passo a passo depois de instalar o item acima e alterando o 1.7 para 1.8 no passo a passo)
+
+Maven error cannot access defaults field of properties
+https://stackoverflow.com/questions/67168999/maven-error-cannot-access-defaults-field-of-properties (Já adicionado no pom.xml)
+
+Abrir Package Explorer no Eclipse: https://www.guj.com.br/t/package-explorer-no-eclipse/256429 (Importante para termos a mesma visão no Eclipse)
