@@ -1,0 +1,63 @@
+#Informações para rodar o projeto
+
+///Para adicionar o projeto no Eclipse///
+1. Baixar o projeto completo do Github
+2. Deszipar a pasta
+3. Abrir o eclipse
+4. File
+5. Open projects from file system or arquive
+6. Selecione  o diretório do seu projeto
+7. Finaliza
+
+
+///Para rodar o projeto///
+(Antes de tudo - Usuário e senha no persistence.xml)
+1. Vá em Bazinga-src/main/resources/META-INF-persistence.xml
+2. Verificar se os values das propriedades abaixo estão de acordo com a sua configuração do MYSQL.
+<property name="javax.persistence.jdbc.user" value="root"/> *Esse é o seu usuário do MYSQL*
+<property name="javax.persistence.jdbc.password" value="12345678"/> *Essa é a senha do seu usuário do MYSQL*
+
+(Antes de tudo - Service)
+1. Abrir os serviços do seu computador
+2. Verificar se o serviço do MYSQL está em execução
+3. Se não estiver executando, selecionar para executar
+
+(Antes de tudo - Banco de dados)
+1. Abrir como administrador o client do MYSQL
+2. Digitar a senha
+3. create database bazinga;
+
+(Antes de tudo - Atualizar projeto)
+1. Botão direito do mouse em cima do projeto
+2. Maven
+3. Update project
+
+(Agora bora rodar o projeto - Primeira vez)
+1. Botão direito do mouse em cima do projeto
+2. Run as
+3. Run on server
+4. Manually define a new server
+5. Apache
+6. Tomcat v9.0 Server
+7. Finish
+
+(Agora bora rodar o projeto - Outras vezes)
+1. Botão direito do mouse em cima do projeto
+2. Run as
+3. Run on server
+4. Choose an existing server
+5. localhost
+6. Tomcat v9.0 Server at localhost
+7. Finish
+
+(Outra forma de criar o servidor do Tomcat)
+1. Window
+2. Preferences
+3. Server
+4. Runtime Environments
+5. Add
+5. Apache
+6. Tomcat v9.0 Server
+7. Next
+8. Download and Install
+9. Finish
