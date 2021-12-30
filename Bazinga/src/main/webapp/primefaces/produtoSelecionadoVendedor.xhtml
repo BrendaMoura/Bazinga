@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+	<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>Produto Selecionado</title>
+	<h:outputStylesheet library="css" name="estilo.css"></h:outputStylesheet>
+	</h:head>
+	<h:body>
+	<p:graphicImage library="imagem" name="logoIFAM.jpg" width="200" />
+	
+	<ui:include src="/primefaces/menu.xhtml" />
+	
+	<h1>Produto Selecionado</h1>
+	<div class="p-grid nested-grid">
+		<div class="p-col-4">
+	        <div class="box box-stretched">
+	        	<p:graphicImage url="#{produtoBean.produto.urlImagem}" style="width: 200px; height:190px" />
+	        </div>
+	    </div>
+	    <div class="p-col-8">
+	        <div class="p-grid">
+	            <div class="p-col-6">
+	                <div class="box">
+	                	<h2>Nome: </h2><h3>#{produtoBean.produto.nome}</h3>
+	                </div>
+	            </div>
+	            <div class="p-col-6">
+	                <div class="box">
+	                	<h2>Descrição: </h2><h3>#{produtoBean.produto.descricao}</h3>
+	                </div>
+	            </div>
+	            <div class="p-col-6">
+	                <div class="box">
+	                	<h2>Id do produto: </h2><h3>#{produtoBean.produto.idProduto}</h3>
+	                </div>
+	            </div>
+	            <div class="p-col-12">
+	                <div class="box">
+	                	<h2>Preco: </h2><h3>#{produtoBean.produto.preco}</h3>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    
+	</div>
+    
+	</h:body>
+</html>
